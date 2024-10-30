@@ -1,6 +1,6 @@
 /*
  * reset_points: Calculates the previous distance for each record and flags if a reset occurs (reset = 1).
- * handle_routes: Adds a point_id to group cumulative resets by using is_reset to mark where each reset begins.
+ * handle_routes: Adds a point_id to group cumulative resets by using reset to mark where each reset begins.
  * route_distances: Finds the maximum distance in each reset (point2point_distance), and captures the start and end timestamps for each reset.
  * route_totals: Aggregates the point2point_distance for each route to get the total_distance. It also calculates the total_duration as the difference
 between the earliest and latest recorded times for each route.
