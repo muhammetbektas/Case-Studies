@@ -6,6 +6,7 @@
 between the earliest and latest recorded times for each route.
 */
 
+/*T-SQL*/
 
 WITH reset_points AS (
     SELECT 
